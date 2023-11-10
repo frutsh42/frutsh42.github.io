@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>FRUTSH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>FRUTSH</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">NOSOTROS</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">ESTRATEGIA</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PRODUCTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Somos <span>FRUTSH</span>, la mejor innovacion aromática</h2>
+                <p class="descripcion">La innovacion aromática llega a tu armario con FRUTSH, la tienda de camisas con fragancia duradera.</p>
+                <a href="tipos de empresas annyi .pdf">Descargar Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Nosotros</p>
+            <h2>Hola, Somos <span>FRUTSH</span> </h2>
+            <h3>Innovadores</h3>
+            <p>Somos una tienda de camisas innovadora que ha revolucionado el mundo de la moda con nuestra fragancia duradera. Nuestras camisas están diseñadas para mantenerse frescas y aromáticas durante todo el día, gracias a nuestra tecnología de fragancia de larga duración. En FRUTSH, creemos que la ropa no solo debe ser cómoda y elegante, sino también aromática. Por eso, hemos creado una colección de camisas con fragancias únicas que se adaptan a cualquier estilo y personalidad.</p>
+            <p>Desde fragancias frescas y cítricas hasta aromas dulces y amaderados, en FRUTSH encontrarás la fragancia perfecta para ti. ¡No esperes más para experimentar la innovación aromática en tu armario! Visítanos en nuestra tienda en línea o en nuestras tiendas físicas y descubre la fragancia duradera de FRUTSH</p>
+            <a href="#">CONTACTANOS</a>
+        </div>
+    </section>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/mercado1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DEMANDA</h5>
+              <p>Al identificar el mercado objetivo se empezó a definir a quien se dirige 
+                nuestro mercado de camisas con fragancia, de acuerdo con ello hemos decidido 
+                que va dirigido a todo tipo de público. Por otro lado, se realizará encuestas, 
+                entrevistas o focus groups, para evaluar el interés en las camisetas con fragancias.
+                Preguntaremos sobre la disposición a pagar por ellas, la preferencia de fragancias 
+                y otros datos relevantes.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/mercado2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>OFERTA</h5>
+              <p>Bajo los proveedores de fragancia se investigó una serie de aromas para asegurarnos de obtener opciones de alta calidad y variedad. Por otro lado, se indago en la calidad de nuestros productos y su durabilidad, esto incluye la elección de telas suaves y resistentes, así como costuras sólidas para garantizar que las camisetas duren el mayor tiempo posible.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/mercado3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>COMPETENCIA</h5>
+              <p>Para una indagación directa de la competencia, se verifico la existencia de otras marcas u empresas que tengan similitud a nuestros productos con fragancias similares, analizando su presencia en el mercado, reputación de marca, variedad de fragancias, precios, calidad del producto y estrategias de marketing. Por otro lado, se estudia la estrategia de comercialización de dicho producto, cortejando su promoción, canales de distribución, observando si hay oportunidades para diferenciarnos mediante una estrategia de marketing única o una presencia en línea destacada.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">ESTRATEGIAS DE VENTA</h3>
+        <div class="fila">
+            <div class="servicio">
+                <h4>Clientes</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Ideal</li>
+                    <li>Aroma</li>
+                    <li>Producto</li>
+                </ul>
+                <p>Debemos identificar primero quienes serán nuestros clientes ideales para este tipo de camisas con aromas deliciosos y divertidos, pueden ser personas jóvenes, amantes de la moda y de las experiencias sensoriales únicas</p>
+            </div>
+            <div class="servicio">
+                <h4>Idea Innovadora</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Originalidad</li>
+                    <li>Atracción</li>
+                </ul>
+                <p>Debemos destacar los beneficios que tienen nuestras camisas con aromas, cómo la originalidad del diseño y lo poco comunes que son, ya que esto las hace ver aún más atractivas para aquellas personas que les gusta lo diferente y poco común. </p>
+            </div>
+            <div class="servicio">
+                <h4>Mensaje</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Calidad</li>
+                    <li>Seguridad</li>
+                    <li>Comodidad</li>
+                </ul>
+                <p>Debemos desarrollar un mensaje de venta claro y persuasivo que resalte los beneficios de las camisas haciéndole sentir al cliente que lucirá genial ya que nuestras camisas estarán diseñadas con telas de alta calidad y diseños cuidadosamente seleccionados, así podrá sentirse seguro, cómodo y confiado durante todo el día</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <h4>Estrategias</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Diseño</li>
+                    <li>Moda</li>
+                    <li>Audiencia</li>
+                </ul>
+                <p>Estableceremos asociaciones con diseñadores de moda, marcas de fragancias o influencers relacionados con la moda, esto permitirá acceder a una audiencia más amplia y aumentar la visibilidad de nuestras camisas.</p>
+            </div>
+            <div class="servicio">
+                <h4>Muestra</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Demostración</li>
+                    <li>Durabilidad</li>
+                    <li>Relevancia</li>
+                </ul>
+                <p>Organizaremos eventos dónde nuestros clientes puedan experimentar los aromas de las camisas por sí mismos. Proporcionaremos muestras y le mostraremos al público cómo los aromas se mantienen en la tela a lo largo del tiempo. Esto nos ayudará a generar confianza y a que los clientes vean el valor agregado del producto.</p>
+            </div>
+            <div class="servicio">
+                <h4>Marketing</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Contenido</li>
+                    <li>Redes</li>
+                    <li>Era digital</li>
+                </ul>
+                <p>Utilizaremos estrategias de marketing digital para llegar a nuestro público objetivo. Crearemos contenido relevante y atractivo en redes sociales dónde subiremos imágenes y videos de alta calidad, allí mostraremos nuestras camisas de manera atractiva y utilizando un estilo coherente.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <h4>Calidad</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Consultoría</li>
+                    <li>Garantía</li>
+                    <li>Asesoramiento</li>
+                </ul>
+                <p>Proporcionaremos un servicio al cliente excepcional, brindando asesoramiento personalizado sobre el estilo, el ajuste y el cuidado de las camisas. También estaremos muy al pendiente a responder rápidamente a las consultas de los clientes y brindar garantías de calidad para generar confianza y fidelidad.</p>
+            </div>
+            <div class="servicio">  
+                <img src="img/Logo.png" alt="" max width="200">
+            </div>
+            <div class="servicio">
+                <h4>Mercadeo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Promociones</li>
+                    <li>Descuentos</li>
+                </ul>
+                <p>Determinaremos un precio competitivo para nuestras camisas, pondremos en marcha descuentos temporales o promociones especiales, como “compra uno y lleva dos” o descuentos del 20%, 30%, 40% y 50%. Esto puede generar que los clientes realicen una compra mientras que perciben que están obteniendo un valor agregado.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>DESADIOS DEL PRODUCTO </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Aceptación en el mercado</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Calidad y cuidado de las camisas</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Normativas y Regulaciones</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Competencia y Diferenciación</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Margen y Beneficio</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="fs"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">NUESTROS PRODUCTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Blusa Frutos Rojos</h4>
+                    <p>Dama</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Menta Juvenil</h4>
+                    <p>Caballero</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Aroma Bebé</h4>
+                    <p>Kids</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Canelazo a la ocación</h4>
+                    <p>Caballero</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Diferenciate Herbalmente</h4>
+                    <p>Dama</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Refrescate con canela y frutos rojos</h4>
+                    <p>Caballero</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Blusa Mora-fresa</h4>
+                    <p>Dama</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Elige tu aroma juvenil</h4>
+                    <p>Caballero</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Juventud Cítrica</h4>
+                    <p>Dama</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
