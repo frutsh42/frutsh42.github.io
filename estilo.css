@@ -85,6 +85,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding-top: 50px;
         }
         
         #inicio .contenido .presentacion .bienvenida {
@@ -216,7 +217,7 @@
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
         .vi{
-            background: #533763be;
+            background: linear-gradient( #9973b4cc, rgba(33, 16, 16, 0.8)), url("img/proyecto5.jpg");
             padding: 100px;
             
         }
