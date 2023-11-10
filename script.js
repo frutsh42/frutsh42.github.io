@@ -40,5 +40,18 @@ function efectoHabilidades() {
     }
 
 }
+window.onscrollend = function() { efectoHabilidades1() };
+function efectoHabilidades1() {
+    var costos = document.getElementById("costos");
+    var distancia_costos = window.innerHeight - costos.getBoundingClientRect().top;
+    if (distancia_costos >= 300) {
+        document.getElementById("ee").classList.add("barr-progreso6");
+        document.getElementById("dd").classList.add("barr-progreso7");
+        document.getElementById("cc").classList.add("barr-progreso8");
+        document.getElementById("bb").classList.add("barr-progreso9");
+        document.getElementById("aa").classList.add("barr-progreso10");
+    }
+
+}
 const carouselExampleDark = document.querySelector('#myCarousel')
 
