@@ -218,13 +218,51 @@
         /* *********************/
         /* BANNER */
         /* *********************/
-        #carouselExampleDark .carousel-item {
-            height: 500px;
+        #carouselExampleDark {
+            transition-duration: .6s;
+            transition: ease-in-out;
+            transform: 2s ease opacity .5s ease-out;
         }
-        .id-img {
-            height: 50%;
-            object-fit: cover;
-            filter: brightness(0.6);
+        #carouselExampleDark  .carousel-control{
+            color: white;
+            width: 15%;
+            opacity: .5;
+            transition: opacity 0.15s ease ;
+            width: icon 2rem;
+
+        }
+        #carouselExampleDark  .carousel-control:hover{
+            opacity: .9;
+        }
+        #carouselExampleDark .carousel-indicators{
+            width: 30px;
+            height: 3px;
+            height: hit-area 10px;
+            height: space 3px;
+            opacity: active 1;
+            background: active white;
+            opacity: .5;
+            transition: opacity .6s ease;
+        }
+        #carouselExampleDark .carousel-item .carousel-caption{
+            width: 80%;
+            color: white;
+            padding: y 1.15rem;
+            padding: space 1.25rem;
+            background: #a47fa8a5;
+        }   
+      
+        #carouselExampleDark  h5{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(70, 7, 88);
+        }
+        #carouselExampleDark  p{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        #carouselExampleDark .carousel-item img{
+            height: 450px;
         }
         /* *********************/
         /* seccion S E R V I C I O S */

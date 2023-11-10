@@ -40,3 +40,5 @@ function efectoHabilidades() {
     }
 
 }
+const carouselExampleDark = document.querySelector('#myCarousel')
+
